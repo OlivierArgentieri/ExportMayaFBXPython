@@ -5,6 +5,6 @@ Export Maya FBX Python with frame range
 import maya.cmds as cmds
 
 cmds.FBXExportSplitAnimationIntoTakes("-clear")
-cmds.FBXExportSplitAnimationIntoTakes("-v", 'toto', 1, 15)
-cmds.FBXExport("-f", 'D:/ouimaya.fbx', "-s")
+cmds.FBXExportSplitAnimationIntoTakes("-v", "toto", 1, 15)
+cmds.FBXExport("-f", "D:/ouimaya.fbx", "-s")
 ```
