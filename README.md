@@ -1,5 +1,5 @@
 # ExportMayaFBXPython
-Export Maya FBX Python with rame range
+Export Maya FBX Python with frame range
 
 ```py
 import maya.cmds as cmds
